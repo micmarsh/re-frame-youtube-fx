@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    margin-top: 50px;
+}
+
+#controls #main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 350px
+}
+
+#play {}
+#pause {}
