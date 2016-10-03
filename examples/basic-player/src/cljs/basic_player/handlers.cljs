@@ -30,15 +30,15 @@
 (re-frame/reg-event-fx
  :load-video
  (fn [_ [_ input]]
-   {:youtube/load-video-by-id (string->youtube-id input)}))
+   {:youtube/load-video-by-id [:youtube-player (string->youtube-id input)]}))
 
 (re-frame/reg-event-fx
  :pause-video
- (fn [_ _] {:youtube/pause-video nil}))
+ (fn [_ _] {:youtube/pause-video :youtube-player}))
 
 (re-frame/reg-event-fx
  :play-video
- (fn [_ _] {:youtube/play-video nil}))
+ (fn [_ _] {:youtube/play-video :youtube-player}))
 
 (re-frame/reg-event-fx
  :player-state-change

@@ -19,11 +19,10 @@
   [[player-id & rest :as args]]
   (if-let [player (global/get-player player-id)]
     (apply vector player rest)
-    (cond
-      (keyword? player-id) (throw (ex-info "Couldn't find Player" {:id player-id}))
-      (and (nil? player-id) (global/single-player?)) [(global/first-player)]
-      (global/single-player?) (apply vector (global/first-player) args)
-      :else (throw (ex-info "Need to specify a Player with a key" {:args args})))))
+    (throw
+     (if (keyword? player-id)
+       (ex-info "Couldn't find Player" {:id player-id})
+       (ex-info "Need to specify a Player with a key" {:args args})))))
  
 (defn youtube-method-reg-fx!
   [method]
