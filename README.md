@@ -6,7 +6,7 @@ A re-frame library that integrates the YouTube iframe API into re-frame effects,
 
 ### Dependency
 ```clojure
-:dependencies [[re-frame-youtube-fx "0.1.0-SNAPSHOT"]]
+:dependencies [[re-frame-youtube-fx "0.1.0"]]
 ```
 
 ### Initialize Effects
