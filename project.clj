@@ -1,4 +1,4 @@
-(defproject re-frame-youtube-fx "0.1.0"
+(defproject re-frame-youtube-fx "0.1.1"
   :description "A re-frame effects wrapper over the youtube iframe api"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
