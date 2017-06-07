@@ -30,12 +30,13 @@
                     :source-map-timestamp true}}
 
     {:id           "min"
-     :source-paths ["src/cljs"]
+     :source-paths ["src/cljs"  "../../src"]
      :compiler     {:main            basic-player.core
                     :output-to       "resources/public/js/compiled/app.js"
                     :optimizations   :advanced
                     :closure-defines {goog.DEBUG false}
-                    :pretty-print    false}}
+                    :pretty-print    false
+                    :externs ["resources/public/externs.js"]}}
 
     ]}
 
