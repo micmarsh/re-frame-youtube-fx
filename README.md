@@ -106,7 +106,6 @@ My [Western Music Time Machine](https://github.com/micmarsh/western-music-time-m
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2023 Michael Marsh
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License version 1.0
