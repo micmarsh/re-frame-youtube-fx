@@ -101,7 +101,7 @@ Additionally maps get translated to camelCase, same as above.
 
 This project contains a [very simple example](https://github.com/micmarsh/re-frame-youtube-fx/tree/master/examples/basic-player) used to illustrate video loading, playing and pausing
 
-My [Western Music Time Machine](https://github.com/micmarsh/western-music-time-machine/blob/master/src/cljs/western_music/handlers/youtube.cljs) project (warning: still very WIP), contains a more complicated example, including "two way binding" of video state to UI elements by utilzing callback events.
+My [Western Music Time Machine](https://github.com/micmarsh/western-music-time-machine/blob/master/src/cljs/western_music/handlers/youtube.cljs) project contains a more complicated example, including "two way binding" of video state to UI elements by utilzing callback events.
 
 
 ## License
