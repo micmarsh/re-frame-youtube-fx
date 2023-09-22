@@ -93,7 +93,7 @@ For each effect, the same keyword provided to `:youtube/initialize-player` is re
    (.pauseVideo player)
    {}))
 ```
-This is obviously an extremely thin wrapper. The goal is to facilitate seemless (and *easy*, in the Rich Hickey sense) re-frame to youtube interaction, not to provide any sort of extra "convenience" methods
+This is obviously an extremely thin wrapper. The goal is to facilitate seemless (and *easy*, in the Rich Hickey sense) re-frame to youtube interaction, not to provide any sort of extra convenience methods or nifty new relational algegra around playing videos.
 
 Additionally maps get translated to camelCase, same as above.
 
