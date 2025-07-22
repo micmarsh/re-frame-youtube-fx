@@ -1,4 +1,5 @@
 # re-frame-youtube-fx
+**Warning: this targets a very old version of re-frame, I'm not sure when I'll be able to update it but will remove then warning when I do**
 
 A re-frame library that integrates the YouTube iframe API into re-frame effects, and handles management of global player instances.
 
